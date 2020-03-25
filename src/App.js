@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Container from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
+//import theme provider
 
-function App() {
+//This is the landing page of the application.
+//I will need to bring in React Router.
+//Home page will have an intro, and some nice imagery.
+
+function app() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <h1>Welcome</h1>
+    </Container>
   );
 }
 
-export default App;
+export default app;
