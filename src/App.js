@@ -1,6 +1,14 @@
 import React from "react";
-import Container from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
+import { Container, Typography } from "@material-ui/core/";
+import Nav from "./components/Nav";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import resources from "./pages/resources";
+import contact from "./pages/contact";
+import support from "./pages/support";
+import home from "./pages/home";
+import GifOne from "./components/GifOne";
+import "./App.css";
+
 //import theme provider
 
 //This is the landing page of the application.
@@ -9,9 +17,19 @@ import Typography from "@material-ui/core/Typography";
 
 function app() {
   return (
-    <Container>
-      <h1>Welcome</h1>
-    </Container>
+    <React.Fragment>
+      <GifOne />
+
+      <Router>
+        <Nav />
+        <Container>
+          <Route exact path='/' component={home}></Route>
+          <Route exact path='/resources' component={resources}></Route>
+          <Route exact path='/contact' component={contact}></Route>
+          <Route exact path='/support' component={support}></Route>
+        </Container>
+      </Router>
+    </React.Fragment>
   );
 }
 
