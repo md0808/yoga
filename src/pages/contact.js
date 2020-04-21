@@ -9,9 +9,21 @@ import React from "react";
 
 const contact = () => {
   return (
-    <div>
-      <h3>Email</h3>
-      <h3>Instagram</h3>
+    <div className='content-text'>
+      <h3>Contact</h3>
+      <p>
+        Here are a number number of ways you can connect with me or follow my
+        classes{" "}
+      </p>
+      <div>
+        <a href='https://www.instagram.com/monicajdixon/'>Instagram</a>
+      </div>
+      <div>
+        <a href='https://www.youtube.com/channel/UCVgIYq5liRSB46JDoFiwF2Q/'>
+          YouTube
+        </a>
+      </div>
+
       <h3>Class Schedule</h3>
       <h3>Calendly</h3>
       <h3>Email</h3>
