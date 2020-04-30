@@ -49,7 +49,7 @@ const Nav = () => {
             Contact
           </Button>
           <Button href='/support' color='inherit'>
-            Donate
+            Support
           </Button>
         </Toolbar>
       </AppBar>

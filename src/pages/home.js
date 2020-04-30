@@ -24,12 +24,12 @@ const home = () => {
         conversation with your body rather than mastering methods of
         manipulation. I was desperately in need of a break from manipulating my
         body, as I believe most people are. There are many valid ways to
-        approach yoga, but I try to offer something that is beyond (though not
-        necessarily exclusive of) a sleek and sexy workout. Cultivating skills
-        to find balance and respite in our lives is central to what I practice
-        and what I aim to bring to others. Above all, I hope to offer people who
-        join my classes tools for enjoying movement and feeling empowered to
-        trust what comes from within.
+        approach yoga, but I try to offer the things that yoga are to me that
+        goes beyond a sleek workout. Cultivating skills to find balance and
+        respite in our lives is central to what I practice and what I aim to
+        bring to others. Above all, I hope to offer people who join my classes
+        tools for enjoying movement and feeling empowered to trust what comes
+        from within.
       </p>
       <p>
         When not under lock-down, I teach yoga classes to large and small groups
