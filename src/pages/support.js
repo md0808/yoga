@@ -10,11 +10,10 @@ const support = () => {
       <br />
       <p>
         If you're able to support what I'm working on and what I'm offering, I
-        deeply appreciate it. I try to offer as much as I can in a way that is
-        accessible to people regardless of their finanical circumstances.
-        Anything that you're able to offer, not only helps me to continue, but
-        it also allows me to pass the support on to people who need these
-        resources, but are unable to offer anything in return.
+        deeply appreciate it. I offer as much as I can to people regardless of
+        their finanical circumstances. Anything that you're able to offer, not
+        only helps me to continue, but it also allows me support people who need
+        these resources, but are not able to pay for them.
       </p>
       <p>
         If you would like to make a donation, you can send make it through

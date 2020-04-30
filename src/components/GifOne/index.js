@@ -4,8 +4,7 @@ import "./styles.css";
 
 const GifOne = () => {
   return (
-    <div class='g1'>
-      {console.log("The gif should be appearing")}
+    <div className='g1'>
       <img src={gif} alt='Colorful Gif' />
     </div>
   );
