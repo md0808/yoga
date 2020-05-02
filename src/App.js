@@ -23,7 +23,7 @@ function app() {
       <Router>
         <Nav />
         <Container>
-          <Route exact path='/yoga/' component={home}></Route>
+          <Route path='/yoga/' component={home}></Route>
           <Route exact path='/yoga/resources' component={resources}></Route>
           <Route exact path='/yoga/contact' component={contact}></Route>
           <Route exact path='/yoga/support' component={support}></Route>
