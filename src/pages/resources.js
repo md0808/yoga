@@ -1,13 +1,3 @@
-// Angela Farmer
-// Sara Firman?
-// Eckhart Tolle
-// Sam Harris App
-//
-
-// My channel
-// Spotify
-
-// Immunity Rituals
 import React from "react";
 import { Typography } from "@material-ui/core";
 

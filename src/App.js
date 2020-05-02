@@ -9,12 +9,6 @@ import home from "./pages/home";
 import GifOne from "./components/GifOne";
 import "./App.css";
 
-//import theme provider
-
-//This is the landing page of the application.
-//I will need to bring in React Router.
-//Home page will have an intro, and some nice imagery.
-
 function app() {
   return (
     <React.Fragment>
