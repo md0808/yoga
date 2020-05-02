@@ -37,7 +37,7 @@ const Nav = () => {
           >
             <Grid item xs={2} md={4}></Grid>
             <Grid item xs={10} md={4} justify='center'>
-              <Link className='logo' to='/'>
+              <Link className='logo' to='/yoga/'>
                 <h2 className='logo'>Monica Dixon Yoga</h2>
               </Link>
             </Grid>
@@ -46,13 +46,13 @@ const Nav = () => {
             </Hidden>
 
             <Grid item xs={8} md={3} justify='right'>
-              <Button href='/resources' color='inherit'>
+              <Button href='/yoga/resources' color='inherit'>
                 Resources
               </Button>
-              <Button href='/contact' color='inherit'>
+              <Button href='/yoga/contact' color='inherit'>
                 Contact
               </Button>
-              <Button href='/support' color='inherit'>
+              <Button href='/yoga/support' color='inherit'>
                 Support
               </Button>
             </Grid>
