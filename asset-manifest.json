@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yoga/static/css/main.9e0a16c4.chunk.css",
+    "main.js": "/yoga/static/js/main.a5d4139e.chunk.js",
+    "main.js.map": "/yoga/static/js/main.a5d4139e.chunk.js.map",
+    "runtime-main.js": "/yoga/static/js/runtime-main.53c4eb90.js",
+    "runtime-main.js.map": "/yoga/static/js/runtime-main.53c4eb90.js.map",
+    "static/js/2.eb43a2b3.chunk.js": "/yoga/static/js/2.eb43a2b3.chunk.js",
+    "static/js/2.eb43a2b3.chunk.js.map": "/yoga/static/js/2.eb43a2b3.chunk.js.map",
+    "index.html": "/yoga/index.html",
+    "precache-manifest.4e574d5b9a2c14c4b232040d8220c1a6.js": "/yoga/precache-manifest.4e574d5b9a2c14c4b232040d8220c1a6.js",
+    "service-worker.js": "/yoga/service-worker.js",
+    "static/css/main.9e0a16c4.chunk.css.map": "/yoga/static/css/main.9e0a16c4.chunk.css.map",
+    "static/js/2.eb43a2b3.chunk.js.LICENSE.txt": "/yoga/static/js/2.eb43a2b3.chunk.js.LICENSE.txt",
+    "static/media/1.gif": "/yoga/static/media/1.3425a7ce.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53c4eb90.js",
+    "static/js/2.eb43a2b3.chunk.js",
+    "static/css/main.9e0a16c4.chunk.css",
+    "static/js/main.a5d4139e.chunk.js"
+  ]
+}
