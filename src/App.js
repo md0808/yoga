@@ -23,10 +23,10 @@ function app() {
       <Router>
         <Nav />
         <Container>
-          <Route exact path='/' component={home}></Route>
-          <Route exact path='/resources' component={resources}></Route>
-          <Route exact path='/contact' component={contact}></Route>
-          <Route exact path='/support' component={support}></Route>
+          <Route exact path='/yoga/' component={home}></Route>
+          <Route exact path='/yoga/resources' component={resources}></Route>
+          <Route exact path='/yoga/contact' component={contact}></Route>
+          <Route exact path='/yoga/support' component={support}></Route>
         </Container>
       </Router>
     </React.Fragment>
