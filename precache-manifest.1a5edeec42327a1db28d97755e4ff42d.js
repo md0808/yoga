@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2845f2b8f957c4e3614493344ef50348",
+    "revision": "18e4646886c5845ffdff88dc6c98422b",
     "url": "/yoga/index.html"
   },
   {
-    "revision": "9e77fc983acb3fb51c03",
+    "revision": "da8ed32e3dee4ba92fa0",
     "url": "/yoga/static/css/main.9e0a16c4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yoga/static/js/2.eb43a2b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e77fc983acb3fb51c03",
-    "url": "/yoga/static/js/main.29af3b28.chunk.js"
+    "revision": "da8ed32e3dee4ba92fa0",
+    "url": "/yoga/static/js/main.3bf1e1a9.chunk.js"
   },
   {
     "revision": "011e758a07e5d73a3fc4",
