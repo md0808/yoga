@@ -1,12 +1,10 @@
 import React from "react";
 import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
+import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/IconButton";
-import { Link, useLocation } from "react-router-dom";
-import Menu from "@material-ui/icons/Menu";
+import { Link } from "react-router-dom";
+import Hidden from "@material-ui/core/Hidden";
 import "./styles.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -28,30 +26,38 @@ const Nav = () => {
   return (
     <div className={classes.root}>
       <AppBar position='fixed' color='transparent'>
-        <Toolbar>
-          {/* <IconButton
-            edge='start'
-            className={classes.menuButton}
-            color='inherit'
-            aria-label='menu'
+        <div className='mon-nav'>
+          <Grid
+            container
+            justify='space-between'
+            direction='row'
+            // spacing={2}
+            xs={12}
+            alignItems='center'
           >
-            <Menu />
-          </IconButton> */}
-          <Typography variant='h6' className={classes.title}>
-            <Link className='logo' to='/'>
-              Monica Dixon Yoga
-            </Link>
-          </Typography>
-          <Button href='/resources' color='inherit'>
-            Resources
-          </Button>
-          <Button href='/contact' color='inherit'>
-            Contact
-          </Button>
-          <Button href='/support' color='inherit'>
-            Support
-          </Button>
-        </Toolbar>
+            <Grid item xs={2} md={4}></Grid>
+            <Grid item xs={10} md={4} justify='center'>
+              <Link className='logo' to='/'>
+                <h2 className='logo'>Monica Dixon Yoga</h2>
+              </Link>
+            </Grid>
+            <Hidden mdUp>
+              <Grid item xs={2} sm={0}></Grid>
+            </Hidden>
+
+            <Grid item xs={8} md={3} justify='right'>
+              <Button href='/resources' color='inherit'>
+                Resources
+              </Button>
+              <Button href='/contact' color='inherit'>
+                Contact
+              </Button>
+              <Button href='/support' color='inherit'>
+                Support
+              </Button>
+            </Grid>
+          </Grid>
+        </div>
       </AppBar>
     </div>
   );

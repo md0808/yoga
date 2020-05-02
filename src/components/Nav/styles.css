@@ -1,9 +1,11 @@
 a.logo {
   color: rgb(56, 56, 56);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a.logo:hover {
   color: rgb(19, 19, 19);
   text-decoration: none;
+  font-weight: bold;
 }
