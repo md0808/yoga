@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18e4646886c5845ffdff88dc6c98422b",
+    "revision": "f37d92a0fba60bb0742aaca939393b97",
     "url": "/yoga/index.html"
   },
   {
